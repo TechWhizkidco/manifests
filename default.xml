@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto-project"
+          fetch="https://git.yoctoproject.org/" />
+
+  <default revision="scarthgap"
+           remote="yocto-project"
+           sync-j="4" />
+
+  <project name="poky"
+           path="poky"
+           remote="yocto-project"
+           revision="scarthgap" />
+</manifest>
